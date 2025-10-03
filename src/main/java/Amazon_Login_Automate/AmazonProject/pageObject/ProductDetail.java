@@ -6,10 +6,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 
-public class ProductDetail {
+import AbstractComponent.AbstractComponent;
+
+public class ProductDetail extends AbstractComponent {
 	public WebDriver driver;
 
 	public ProductDetail(WebDriver Driver) {
+		super(Driver);
 		this.driver = Driver;
 		PageFactory.initElements(driver, this);
 	}
