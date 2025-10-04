@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-03T10:20:47 IST" name="Suite" finished-at="2025-10-03T10:21:30 IST" duration-ms="43298">
+  <suite started-at="2025-10-03T23:36:45 IST" name="Suite" finished-at="2025-10-03T23:37:14 IST" duration-ms="28606">
     <groups>
     </groups>
-    <test started-at="2025-10-03T10:20:47 IST" name="Test" finished-at="2025-10-03T10:21:30 IST" duration-ms="43298">
+    <test started-at="2025-10-03T23:36:45 IST" name="Test" finished-at="2025-10-03T23:37:14 IST" duration-ms="28606">
       <class name="Amazon_Login_Automate.AmazonProject.TestSignIn">
-        <test-method signature="signIn()[pri:0, instance:Amazon_Login_Automate.AmazonProject.TestSignIn@1fa121e2]" started-at="2025-10-03T10:21:13 IST" name="signIn" finished-at="2025-10-03T10:21:29 IST" duration-ms="16130" status="PASS">
+        <test-method signature="signIn()[pri:0, instance:Amazon_Login_Automate.AmazonProject.TestSignIn@7eac9008]" started-at="2025-10-03T23:36:56 IST" name="signIn" finished-at="2025-10-03T23:37:13 IST" duration-ms="16211" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signIn -->
       </class> <!-- Amazon_Login_Automate.AmazonProject.TestSignIn -->
       <class name="Amazon_Login_Automate.AmazonProject.TestProductDetail">
-        <test-method signature="prodDetail()[pri:0, instance:Amazon_Login_Automate.AmazonProject.TestProductDetail@7eac9008]" started-at="2025-10-03T10:21:29 IST" name="prodDetail" finished-at="2025-10-03T10:21:30 IST" duration-ms="1283" status="PASS">
+        <test-method signature="prodDetail()[pri:0, instance:Amazon_Login_Automate.AmazonProject.TestProductDetail@4116aac9]" started-at="2025-10-03T23:37:13 IST" name="prodDetail" finished-at="2025-10-03T23:37:14 IST" duration-ms="1250" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prodDetail -->
       </class> <!-- Amazon_Login_Automate.AmazonProject.TestProductDetail -->
       <class name="Amazon_Login_Automate.AmazonProject.BaseTest">
-        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:Amazon_Login_Automate.AmazonProject.BaseTest@3fc2959f]" started-at="2025-10-03T10:20:47 IST" name="initializeDriver" finished-at="2025-10-03T10:21:13 IST" duration-ms="25687" status="PASS">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:Amazon_Login_Automate.AmazonProject.BaseTest@5aa9e4eb]" started-at="2025-10-03T23:36:45 IST" name="initializeDriver" finished-at="2025-10-03T23:36:56 IST" duration-ms="10988" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->

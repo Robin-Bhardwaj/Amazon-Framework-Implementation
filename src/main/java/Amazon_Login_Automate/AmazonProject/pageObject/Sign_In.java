@@ -1,15 +1,23 @@
 package Amazon_Login_Automate.AmazonProject.pageObject;
 
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.List;
+import java.util.Properties;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import AbstractComponent.AbstractComponent;
 
 public class Sign_In extends AbstractComponent {
 	public WebDriver driver;
+	public Properties p;
 
 	public Sign_In(WebDriver Driver) {
 		super(Driver); // calls AbstractComponent’s constructor
@@ -17,28 +25,46 @@ public class Sign_In extends AbstractComponent {
 		PageFactory.initElements(driver, this);
 	}
 
-	public void loggingIn() {
-		String signInEmail = "bhardwajrobin771@gmail.com";
-		String signInPassword = "Welcome@#123";
-		String searchForProduct = "Boat ear buds";
+	@FindBy(xpath = "//span[contains(text(),'Delivering to Faridabad 121004')]")
+	List<WebElement> checkLoggedInOrNot;
 
-		if (driver.findElements(By.xpath("//span[contains(text(),'Delivering to Faridabad 121004')]")).size() > 0) {
+	@FindBy(css = "input[name=\"email\"]")
+	WebElement txtEnterEmail;
+
+	@FindBy(css = "input[type=\"submit\"]")
+	WebElement btnSubmitEmail;
+
+	@FindBy(css = "input[type=\"password\"]")
+	WebElement txtEnterPass;
+
+	@FindBy(css = "input[id=\"signInSubmit\"]")
+	WebElement btnSubmitPass;
+
+	@FindBy(css = "input[id=\"twotabsearchtextbox\"]")
+	WebElement txtsearchBrand;
+
+	public void loggingIn() throws IOException {
+		FileReader file = new FileReader("./src/test/resources/config.properties");
+		p = new Properties();
+		p.load(file);
+
+		if (checkLoggedInOrNot.size() > 0) {
 			// Hover on Hello SignIn and click on SignIn button
 			Actions action = new Actions(driver);
 			action.moveToElement(driver.findElement(By.id("nav-link-accountList")))
 					.click(driver.findElement(By.cssSelector(".nav-action-inner"))).build().perform();
 
 			// Enter Email and Password to SignIn
-			driver.findElement(By.cssSelector("input[name=\"email\"]")).sendKeys(signInEmail);
-			driver.findElement(By.cssSelector("input[type=\"submit\"]")).click();
+			txtEnterEmail.sendKeys(p.getProperty("signInEmail"));
+			btnSubmitEmail.click();
 
-			driver.findElement(By.cssSelector("input[type=\"password\"]")).sendKeys(signInPassword);
-			driver.findElement(By.cssSelector("input[id=\"signInSubmit\"]")).click();
+			txtEnterPass.sendKeys(p.getProperty("signInPassword"));
+			btnSubmitPass.click();
 
 		}
 
 		// Search for Brands
-		driver.findElement(By.cssSelector("input[id=\"twotabsearchtextbox\"]")).sendKeys(searchForProduct + Keys.ENTER);
+		txtsearchBrand.sendKeys(p.getProperty("searchForProduct") + Keys.ENTER);
 
 	}
 }
