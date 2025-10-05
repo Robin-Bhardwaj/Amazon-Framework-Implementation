@@ -1,6 +1,5 @@
 package Amazon_Login_Automate.AmazonProject.pageObject;
 
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -37,7 +36,7 @@ public class ProductDetail extends AbstractComponent {
 
 	public void productOPerations() {
 		// Price Range Slider
-		JavascriptExecutor js = (JavascriptExecutor) driver;
+		jsExecutor();
 
 		// Set lower bound slider (index 14 → ₹200)
 		WebElement minSlider = lowerBoundSlider;

@@ -15,11 +15,11 @@ import org.openqa.selenium.support.PageFactory;
 
 import AbstractComponent.AbstractComponent;
 
-public class Sign_In extends AbstractComponent {
+public class SignIn extends AbstractComponent {
 	public WebDriver driver;
 	public Properties p;
 
-	public Sign_In(WebDriver Driver) {
+	public SignIn(WebDriver Driver) {
 		super(Driver); // calls AbstractComponent’s constructor
 		this.driver = Driver;
 		PageFactory.initElements(driver, this);
@@ -43,7 +43,7 @@ public class Sign_In extends AbstractComponent {
 	@FindBy(css = "input[id=\"twotabsearchtextbox\"]")
 	WebElement txtsearchBrand;
 
-	public void loggingIn() throws IOException {
+	public void login() throws IOException {
 		FileReader file = new FileReader("./src/test/resources/config.properties");
 		p = new Properties();
 		p.load(file);

@@ -16,6 +16,7 @@ public class TestProductDetail extends BaseTest {
 	public void prodDetail() {
 		detail = new ProductDetail(driver);
 		detail.productOPerations();
+		logger.info("Filter Applied and Products are showing");
 	}
 
 }
