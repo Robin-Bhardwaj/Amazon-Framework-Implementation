@@ -12,6 +12,8 @@ public class TestProductList extends BaseTest {
 		listOperations = new ProductList(driver);
 		listOperations.scrollThroughProducts();
 		logger.info("Scroll on Produt page succesfull");
+		listOperations.selectProduct();
+		logger.info("Product Selected");
 
 	}
 

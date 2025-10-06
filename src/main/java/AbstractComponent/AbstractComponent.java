@@ -2,9 +2,9 @@ package AbstractComponent;
 
 import java.time.Duration;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -19,9 +19,9 @@ public class AbstractComponent {
 		PageFactory.initElements(driver, this);
 	}
 
-	public void waitForElementToAppear(WebElement element, int timeInSeconds) {
+	public void waitForElementToAppear(By locator, int timeInSeconds) {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(timeInSeconds));
-		wait.until(ExpectedConditions.visibilityOf(element));
+		wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(locator));
 	}
 
 	public void jsExecutor() {
