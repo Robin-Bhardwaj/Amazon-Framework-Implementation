@@ -5,10 +5,16 @@
     <classes>
       <class name="Amazon_Login_Automate.AmazonProject.TestProductDetail">
         <methods>
-          <include name="prodDetail"/>
+          <include name="productDetail"/>
           <include name="initializeDriver"/>
         </methods>
       </class> <!-- Amazon_Login_Automate.AmazonProject.TestProductDetail -->
+      <class name="Amazon_Login_Automate.AmazonProject.TestProductFilter">
+        <methods>
+          <include name="prodDetail"/>
+          <include name="initializeDriver"/>
+        </methods>
+      </class> <!-- Amazon_Login_Automate.AmazonProject.TestProductFilter -->
       <class name="Amazon_Login_Automate.AmazonProject.TestProductList">
         <methods>
           <include name="productListOperations"/>

@@ -17,7 +17,7 @@ public class ProductList extends AbstractComponent {
 		PageFactory.initElements(driver, this);
 	}
 
-	@FindBy(xpath = "//h2[contains(@aria-label,'boAt Airdopes 311 Pro')]")
+	@FindBy(xpath = "//h2[contains(@aria-label,'Airdopes 311 Pro')]")
 	WebElement h2productclick;
 
 	public void scrollThroughProducts() {
@@ -28,6 +28,8 @@ public class ProductList extends AbstractComponent {
 
 	public void selectProduct() {
 		h2productclick.click();
+		handles();
+		driver.switchTo().window(childWindow);
 	}
 
 }

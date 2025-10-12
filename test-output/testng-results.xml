@@ -1,31 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-10-06T22:58:18 IST" name="Suite" finished-at="2025-10-06T22:58:48 IST" duration-ms="30437">
+  <suite started-at="2025-10-12T23:38:38 IST" name="Suite" finished-at="2025-10-12T23:39:11 IST" duration-ms="32969">
     <groups>
     </groups>
-    <test started-at="2025-10-06T22:58:18 IST" name="Test" finished-at="2025-10-06T22:58:48 IST" duration-ms="30437">
+    <test started-at="2025-10-12T23:38:38 IST" name="Test" finished-at="2025-10-12T23:39:11 IST" duration-ms="32969">
       <class name="Amazon_Login_Automate.AmazonProject.TestProductList">
-        <test-method signature="productListOperations()[pri:0, instance:Amazon_Login_Automate.AmazonProject.TestProductList@3857f613]" started-at="2025-10-06T22:58:45 IST" name="productListOperations" finished-at="2025-10-06T22:58:48 IST" duration-ms="3327" status="PASS">
+        <test-method signature="productListOperations()[pri:0, instance:Amazon_Login_Automate.AmazonProject.TestProductList@7c6908d7]" started-at="2025-10-12T23:39:03 IST" name="productListOperations" finished-at="2025-10-12T23:39:06 IST" duration-ms="2825" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productListOperations -->
       </class> <!-- Amazon_Login_Automate.AmazonProject.TestProductList -->
       <class name="Amazon_Login_Automate.AmazonProject.TestSignIn">
-        <test-method signature="signIn()[pri:0, instance:Amazon_Login_Automate.AmazonProject.TestSignIn@15de0b3c]" started-at="2025-10-06T22:58:28 IST" name="signIn" finished-at="2025-10-06T22:58:43 IST" duration-ms="15499" status="PASS">
+        <test-method signature="signIn()[pri:0, instance:Amazon_Login_Automate.AmazonProject.TestSignIn@3857f613]" started-at="2025-10-12T23:38:47 IST" name="signIn" finished-at="2025-10-12T23:39:02 IST" duration-ms="14232" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signIn -->
       </class> <!-- Amazon_Login_Automate.AmazonProject.TestSignIn -->
       <class name="Amazon_Login_Automate.AmazonProject.TestProductDetail">
-        <test-method signature="prodDetail()[pri:0, instance:Amazon_Login_Automate.AmazonProject.TestProductDetail@489115ef]" started-at="2025-10-06T22:58:43 IST" name="prodDetail" finished-at="2025-10-06T22:58:45 IST" duration-ms="1976" status="PASS">
+        <test-method signature="productDetail()[pri:0, instance:Amazon_Login_Automate.AmazonProject.TestProductDetail@3c9754d8]" started-at="2025-10-12T23:39:06 IST" name="productDetail" finished-at="2025-10-12T23:39:11 IST" duration-ms="5028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productDetail -->
+      </class> <!-- Amazon_Login_Automate.AmazonProject.TestProductDetail -->
+      <class name="Amazon_Login_Automate.AmazonProject.TestProductFilter">
+        <test-method signature="prodDetail()[pri:0, instance:Amazon_Login_Automate.AmazonProject.TestProductFilter@198b6731]" started-at="2025-10-12T23:39:02 IST" name="prodDetail" finished-at="2025-10-12T23:39:03 IST" duration-ms="1425" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- prodDetail -->
-      </class> <!-- Amazon_Login_Automate.AmazonProject.TestProductDetail -->
+      </class> <!-- Amazon_Login_Automate.AmazonProject.TestProductFilter -->
       <class name="Amazon_Login_Automate.AmazonProject.BaseTest">
-        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:Amazon_Login_Automate.AmazonProject.BaseTest@7dcf94f8]" started-at="2025-10-06T22:58:18 IST" name="initializeDriver" finished-at="2025-10-06T22:58:28 IST" duration-ms="9461" status="PASS">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:Amazon_Login_Automate.AmazonProject.BaseTest@31190526]" started-at="2025-10-12T23:38:38 IST" name="initializeDriver" finished-at="2025-10-12T23:38:47 IST" duration-ms="9344" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeDriver -->

@@ -1,54 +1,10 @@
-2025-10-05 13:39:51 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Sign Successful
-2025-10-05 13:39:53 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Filter Applied and Products are showing
-2025-10-05 13:50:09 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Sign Successful
-2025-10-05 13:50:10 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Filter Applied and Products are showing
-2025-10-05 14:16:32 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Sign Successful
-2025-10-05 14:16:33 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Filter Applied and Products are showing
-2025-10-05 15:20:46 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Sign Successful
-2025-10-05 15:20:48 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Filter Applied and Products are showing
-2025-10-05 15:26:24 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Sign Successful
-2025-10-05 15:26:26 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Filter Applied and Products are showing
-2025-10-05 15:26:26 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Scroll on Produt page succesfull
-2025-10-05 15:35:12 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Sign Successful
-2025-10-05 15:35:13 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Filter Applied and Products are showing
-2025-10-05 15:45:09 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Sign Successful
-2025-10-05 15:52:48 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Sign Successful
-2025-10-05 15:52:50 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Filter Applied and Products are showing
-2025-10-05 15:55:45 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Sign Successful
-2025-10-05 15:55:46 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Filter Applied and Products are showing
-2025-10-05 16:56:11 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Sign Successful
-2025-10-05 16:56:13 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Filter Applied and Products are showing
-2025-10-05 16:56:13 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Scroll on Produt page succesfull
-2025-10-05 16:58:30 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Sign Successful
-2025-10-05 16:58:31 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Filter Applied and Products are showing
-2025-10-05 16:58:31 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Scroll on Produt page succesfull
-2025-10-06 21:30:00 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Sign Successful
-2025-10-06 21:30:01 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Filter Applied and Products are showing
-2025-10-06 21:30:01 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Scroll on Produt page succesfull
-2025-10-06 21:31:10 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Sign Successful
-2025-10-06 21:31:12 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Filter Applied and Products are showing
-2025-10-06 21:31:12 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Scroll on Produt page succesfull
-2025-10-06 21:32:19 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Sign Successful
-2025-10-06 21:32:21 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Filter Applied and Products are showing
-2025-10-06 21:32:21 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Scroll on Produt page succesfull
-2025-10-06 21:33:19 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Sign Successful
-2025-10-06 21:33:20 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Filter Applied and Products are showing
-2025-10-06 21:33:20 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Scroll on Produt page succesfull
-2025-10-06 22:05:10 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Sign Successful
-2025-10-06 22:05:11 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Filter Applied and Products are showing
-2025-10-06 22:07:55 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Sign Successful
-2025-10-06 22:07:57 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Filter Applied and Products are showing
-2025-10-06 22:12:14 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Sign Successful
-2025-10-06 22:12:16 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Filter Applied and Products are showing
-2025-10-06 22:21:22 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Sign Successful
-2025-10-06 22:21:23 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Filter Applied and Products are showing
-2025-10-06 22:21:25 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Scroll on Produt page succesfull
-2025-10-06 22:22:35 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Sign Successful
-2025-10-06 22:22:36 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Filter Applied and Products are showing
-2025-10-06 22:22:38 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Scroll on Produt page succesfull
-2025-10-06 22:23:27 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Sign Successful
-2025-10-06 22:23:28 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Filter Applied and Products are showing
-2025-10-06 22:23:30 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Scroll on Produt page succesfull
-2025-10-06 22:58:43 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Sign Successful
-2025-10-06 22:58:45 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Filter Applied and Products are showing
-2025-10-06 22:58:47 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Scroll on Produt page succesfull
+2025-10-12 23:26:52 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Sign Successful
+2025-10-12 23:26:53 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Filter Applied and Products are showing
+2025-10-12 23:26:54 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Scroll on Product page succesfully completed
+2025-10-12 23:26:56 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Product Selected
+2025-10-12 23:27:02 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - product displayed verified and title verified
+2025-10-12 23:39:02 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Sign Successful
+2025-10-12 23:39:03 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Filter Applied and Products are showing
+2025-10-12 23:39:05 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Scroll on Product page succesfully completed
+2025-10-12 23:39:06 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Product Selected
+2025-10-12 23:39:11 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - product displayed verified and title verified
