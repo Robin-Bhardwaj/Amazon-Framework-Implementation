@@ -8,3 +8,19 @@
 2025-10-12 23:39:05 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Scroll on Product page succesfully completed
 2025-10-12 23:39:06 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Product Selected
 2025-10-12 23:39:11 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - product displayed verified and title verified
+2025-10-15 23:26:32 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Sign Successful
+2025-10-15 23:26:33 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Filter Applied and Products are showing
+2025-10-15 23:26:36 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Scroll on Product page succesfully completed
+2025-10-15 23:26:36 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Product Selected
+2025-10-15 23:26:43 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - product displayed verified and title verified
+2025-10-16 00:22:19 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Sign Successful
+2025-10-16 00:22:21 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Filter Applied and Products are showing
+2025-10-16 00:22:23 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Scroll on Product page succesfully completed
+2025-10-16 00:22:25 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Product Selected
+2025-10-16 00:22:32 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - product displayed verified and title verified
+2025-10-16 00:22:35 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Add to Cart Process Success
+2025-10-16 00:25:14 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Sign Successful
+2025-10-16 00:25:16 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Filter Applied and Products are showing
+2025-10-16 00:25:18 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Scroll on Product page succesfully completed
+2025-10-16 00:25:19 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Product Selected
+2025-10-16 00:25:25 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - product displayed verified and title verified

@@ -13,6 +13,8 @@ public class TestProductDetail extends BaseTest {
 		productInfo = new ProductDetail(driver);
 		productInfo.verifyProductDetailsVisibility();
 		logger.info("product displayed verified and title verified");
+		productInfo.productAddToCartOperation();
+		logger.info("Add to Cart Process Success");
 
 	}
 

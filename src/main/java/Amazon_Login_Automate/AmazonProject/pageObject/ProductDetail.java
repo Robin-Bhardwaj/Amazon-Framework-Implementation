@@ -21,10 +21,37 @@ public class ProductDetail extends AbstractComponent {
 	@FindBy(css = "span#productTitle")
 	WebElement labelProductTitle;
 
+	@FindBy(css = "#nav-cart-count")
+	WebElement iconBeforeCartCount;
+
+	@FindBy(css = "#add-to-cart-button")
+	WebElement btnProductAddToCart;
+
+	@FindBy(css = ".attach-close-button")
+	WebElement iconCross;
+
+	@FindBy(css = "#nav-cart-count")
+	WebElement iconAfterCartCount;
+
 	public void verifyProductDetailsVisibility() {
 		waitForElementToAppear(By.cssSelector("span#productTitle"), 10);
 		Assert.assertTrue(labelProductTitle.isDisplayed());
+		boolean visibility = labelProductTitle.isDisplayed();
+		System.out.println(visibility);
 		System.out.println(labelProductTitle.getText());
+	}
+
+	public void productAddToCartOperation() {
+		String beforeCartCount = iconBeforeCartCount.getText().trim();
+		int beforeCartCountInteger = Integer.parseInt(beforeCartCount);
+
+		btnProductAddToCart.click();
+		iconCross.click();
+
+		String afterCartCount = iconAfterCartCount.getText().trim();
+		int afterCartCountInteger = Integer.parseInt(afterCartCount);
+		System.out.println(afterCartCountInteger);
+		Assert.assertEquals(afterCartCountInteger, beforeCartCountInteger + 1);
 	}
 
 }
