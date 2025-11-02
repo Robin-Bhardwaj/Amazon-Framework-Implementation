@@ -33,6 +33,12 @@ public class ProductDetail extends AbstractComponent {
 	@FindBy(css = "#nav-cart-count")
 	WebElement iconAfterCartCount;
 
+	@FindBy(css = "#buy-now-button")
+	WebElement btnBuyNow;
+
+	@FindBy(css = "#deliver-to-customer-text")
+	WebElement txtLabel;
+
 	public void verifyProductDetailsVisibility() {
 		waitForElementToAppear(By.cssSelector("span#productTitle"), 10);
 		Assert.assertTrue(labelProductTitle.isDisplayed());
@@ -52,6 +58,17 @@ public class ProductDetail extends AbstractComponent {
 		int afterCartCountInteger = Integer.parseInt(afterCartCount);
 		System.out.println(afterCartCountInteger);
 		Assert.assertEquals(afterCartCountInteger, beforeCartCountInteger + 1);
+	}
+
+	public void productBuyNowOperation() {
+		btnBuyNow.click();
+	}
+
+	public void verifyTextAfterChooseBuyNow() {
+		String expectedText = txtLabel.getText();
+		System.out.println(expectedText);
+		Assert.assertEquals("Delivering to Robin Bhardwaj", expectedText);
+
 	}
 
 }

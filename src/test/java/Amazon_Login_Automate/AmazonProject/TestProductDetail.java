@@ -15,6 +15,10 @@ public class TestProductDetail extends BaseTest {
 		logger.info("product displayed verified and title verified");
 		productInfo.productAddToCartOperation();
 		logger.info("Add to Cart Process Success");
+		productInfo.productBuyNowOperation();
+		logger.info("Buy Now button click");
+		productInfo.verifyTextAfterChooseBuyNow();
+		logger.info("Verified Deliery to Robin Text");
 
 	}
 
