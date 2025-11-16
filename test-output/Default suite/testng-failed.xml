@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Amazon_Login_Automate.AmazonProject.BaseTest">
+      <class name="Amazon_Login_Automate.AmazonProject.TestProductDetail">
         <methods>
-          <include name="testSignIn"/>
-          <include name="testProductDetail"/>
+          <include name="productDetail"/>
+          <include name="initializeDriver"/>
         </methods>
-      </class> <!-- Amazon_Login_Automate.AmazonProject.BaseTest -->
+      </class> <!-- Amazon_Login_Automate.AmazonProject.TestProductDetail -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

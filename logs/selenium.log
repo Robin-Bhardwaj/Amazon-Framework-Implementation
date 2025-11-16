@@ -94,3 +94,72 @@
 2025-11-08 11:26:34 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Add to Cart Process Success
 2025-11-08 11:26:42 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Buy Now button click
 2025-11-08 11:26:42 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Verified Deliery to Robin Text
+2025-11-16 11:50:36 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Sign Successful
+2025-11-16 11:50:37 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Filter Applied and Products are showing
+2025-11-16 11:50:39 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Scroll on Product page succesfully completed
+2025-11-16 11:50:41 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Product Selected
+2025-11-16 11:50:55 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - product displayed verified and title verified
+2025-11-16 11:52:44 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Sign Successful
+2025-11-16 11:52:46 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Filter Applied and Products are showing
+2025-11-16 11:52:48 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Scroll on Product page succesfully completed
+2025-11-16 11:52:49 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Product Selected
+2025-11-16 11:52:56 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - product displayed verified and title verified
+2025-11-16 12:07:57 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Sign Successful
+2025-11-16 12:07:59 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Filter Applied and Products are showing
+2025-11-16 12:08:01 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Scroll on Product page succesfully completed
+2025-11-16 12:08:02 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Product Selected
+2025-11-16 12:08:10 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - product displayed verified and title verified
+2025-11-16 12:08:13 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Add to Cart Process Success
+2025-11-16 12:08:14 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Buy Now button click
+2025-11-16 12:08:19 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Verified Deliery to Robin Text
+2025-11-16 12:48:26 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Sign Successful
+2025-11-16 12:48:31 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Filter Applied and Products are showing
+2025-11-16 12:48:33 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Scroll on Product page succesfully completed
+2025-11-16 12:48:34 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Product Selected
+2025-11-16 12:48:39 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - product displayed verified and title verified
+2025-11-16 12:59:06 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Sign Successful
+2025-11-16 12:59:08 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Filter Applied and Products are showing
+2025-11-16 12:59:11 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Scroll on Product page succesfully completed
+2025-11-16 12:59:12 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Product Selected
+2025-11-16 12:59:18 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - product displayed verified and title verified
+2025-11-16 13:02:56 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Sign Successful
+2025-11-16 13:02:57 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Filter Applied and Products are showing
+2025-11-16 13:03:00 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Scroll on Product page succesfully completed
+2025-11-16 13:03:02 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Product Selected
+2025-11-16 13:03:08 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - product displayed verified and title verified
+2025-11-16 13:10:23 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Sign Successful
+2025-11-16 13:10:25 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Filter Applied and Products are showing
+2025-11-16 13:10:28 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Scroll on Product page succesfully completed
+2025-11-16 13:10:29 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Product Selected
+2025-11-16 13:10:35 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - product displayed verified and title verified
+2025-11-16 19:21:26 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Sign Successful
+2025-11-16 19:21:27 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Filter Applied and Products are showing
+2025-11-16 19:21:30 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Scroll on Product page succesfully completed
+2025-11-16 19:21:31 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Product Selected
+2025-11-16 19:21:42 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - product displayed verified and title verified
+2025-11-16 19:23:57 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Sign Successful
+2025-11-16 19:23:58 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Filter Applied and Products are showing
+2025-11-16 19:24:01 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Scroll on Product page succesfully completed
+2025-11-16 19:24:02 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Product Selected
+2025-11-16 19:24:10 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - product displayed verified and title verified
+2025-11-16 19:31:49 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Sign Successful
+2025-11-16 19:31:50 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Filter Applied and Products are showing
+2025-11-16 19:31:52 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Scroll on Product page succesfully completed
+2025-11-16 19:31:54 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Product Selected
+2025-11-16 19:32:00 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - product displayed verified and title verified
+2025-11-16 19:37:59 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Sign Successful
+2025-11-16 19:38:00 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Filter Applied and Products are showing
+2025-11-16 19:38:01 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Scroll on Product page succesfully completed
+2025-11-16 19:38:03 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Product Selected
+2025-11-16 19:38:08 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - product displayed verified and title verified
+2025-11-16 19:38:11 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Add to Cart Process Success
+2025-11-16 19:38:17 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Buy Now button click
+2025-11-16 19:38:17 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Verified Delivery to Robin Text
+2025-11-16 19:39:08 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Sign Successful
+2025-11-16 19:39:13 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Filter Applied and Products are showing
+2025-11-16 19:39:15 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Scroll on Product page succesfully completed
+2025-11-16 19:39:16 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Product Selected
+2025-11-16 19:39:22 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - product displayed verified and title verified
+2025-11-16 19:39:25 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Add to Cart Process Success
+2025-11-16 19:39:31 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Buy Now button click
+2025-11-16 19:39:31 [main] INFO  Amazon_Login_Automate.AmazonProject.BaseTest - Verified Delivery to Robin Text

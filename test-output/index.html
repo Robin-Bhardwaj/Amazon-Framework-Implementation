@@ -136,6 +136,36 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">Amazon_Login_Automate.AmazonProject.TestProductList</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="productListOperations">
+                  </a> <!-- productListOperations -->
+                  <span class="method-name">productListOperations</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Amazon_Login_Automate.AmazonProject.TestProductFilter</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="prodDetail">
+                  </a> <!-- prodDetail -->
+                  <span class="method-name">prodDetail</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">Amazon_Login_Automate.AmazonProject.TestProductDetail</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -163,36 +193,6 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">Amazon_Login_Automate.AmazonProject.TestProductFilter</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="prodDetail">
-                  </a> <!-- prodDetail -->
-                  <span class="method-name">prodDetail</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">Amazon_Login_Automate.AmazonProject.TestProductList</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="productListOperations">
-                  </a> <!-- productListOperations -->
-                  <span class="method-name">productListOperations</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -203,6 +203,9 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listeners.ExtentListener&quot;/&gt;
+  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;Amazon_Login_Automate.AmazonProject.BaseTest&quot;/&gt;
@@ -253,24 +256,24 @@ data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'productDetail')
 data.setCell(0, 2, 'Amazon_Login_Automate.AmazonProject.TestProductDetail')
-data.setCell(0, 3, 18331);
+data.setCell(0, 3, 14587);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'signIn')
 data.setCell(1, 2, 'Amazon_Login_Automate.AmazonProject.TestSignIn')
-data.setCell(1, 3, 14859);
+data.setCell(1, 3, 10855);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'productListOperations')
-data.setCell(2, 2, 'Amazon_Login_Automate.AmazonProject.TestProductList')
-data.setCell(2, 3, 2233);
+data.setCell(2, 1, 'prodDetail')
+data.setCell(2, 2, 'Amazon_Login_Automate.AmazonProject.TestProductFilter')
+data.setCell(2, 3, 4603);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'prodDetail')
-data.setCell(3, 2, 'Amazon_Login_Automate.AmazonProject.TestProductFilter')
-data.setCell(3, 3, 891);
+data.setCell(3, 1, 'productListOperations')
+data.setCell(3, 2, 'Amazon_Login_Automate.AmazonProject.TestProductList')
+data.setCell(3, 3, 2914);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 36 seconds</span>
+              <span class="suite-total-time">Total running time: 32 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -289,14 +292,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">Amazon_Login_Automate.AmazonProject.TestProductDetail</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">initializeDriver</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">Amazon_Login_Automate.AmazonProject.TestSignIn</span>
+              <span class="ignored-class-name">Amazon_Login_Automate.AmazonProject.TestProductList</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">initializeDriver</span>
                 <br/>
@@ -310,7 +306,14 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">Amazon_Login_Automate.AmazonProject.TestProductList</span>
+              <span class="ignored-class-name">Amazon_Login_Automate.AmazonProject.TestProductDetail</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initializeDriver</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Amazon_Login_Automate.AmazonProject.TestSignIn</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">initializeDriver</span>
                 <br/>
@@ -334,28 +337,28 @@ return data;
               <div class="chronological-class-name">Amazon_Login_Automate.AmazonProject.TestSignIn</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">signIn</span>
-                <span class="method-start">23775 ms</span>
+                <span class="method-start">8795 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Amazon_Login_Automate.AmazonProject.TestProductFilter</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">prodDetail</span>
-                <span class="method-start">38670 ms</span>
+                <span class="method-start">19697 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Amazon_Login_Automate.AmazonProject.TestProductList</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">productListOperations</span>
-                <span class="method-start">39569 ms</span>
+                <span class="method-start">24317 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Amazon_Login_Automate.AmazonProject.TestProductDetail</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">productDetail</span>
-                <span class="method-start">41811 ms</span>
+                <span class="method-start">27236 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
